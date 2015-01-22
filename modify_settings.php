@@ -66,11 +66,11 @@ if(function_exists('edit_module_css')) {
 	<td colspan="2"><strong><?php echo $FQTEXT['SETTINGS']; ?></strong></td>
 </tr>
 <tr>
-	<td class="setting_name" style="width: 200px">
+	<td class="setting_name">
 		<?php echo $FQTEXT['COLOR']; ?>:<br />
 	</td>
-	<td class="setting_name">
-	<select id="colors" name="color" style="width:680px;">		
+	<td class="setting_value">
+	<select id="colors" name="color">		
 		<option value="<?php echo $admin->strip_slashes($fetch_settings['color']); ?>" data-image="<?php echo WB_URL; ?>/modules/jqCollapse/images/msdropdown/icons/<?php echo $admin->strip_slashes($fetch_settings['color']); ?>.png" data-description="<?php echo $FQTEXT['ACTIVE_COLOR']; ?>"><?php echo $FQTEXT['CHOOSE_COLOR']; ?></option>
 		<option value="blue" data-image="<?php echo WB_URL; ?>/modules/jqCollapse/images/msdropdown/icons/blue.png" data-description=""><?php echo $FQTEXT['BLUE']; ?></option>
 		<option value="dark-blue" data-image="<?php echo WB_URL; ?>/modules/jqCollapse/images/msdropdown/icons/dark-blue.png" data-description=""><?php echo $FQTEXT['DARK_BLUE']; ?></option>
@@ -86,11 +86,11 @@ if(function_exists('edit_module_css')) {
 	</td>
 </tr>
 <tr>
-	<td class="setting_name" style="width: 200px">
+	<td class="setting_name">
 		<?php echo $FQTEXT['GRADIENT']; ?>:
 	</td>
-	<td class="setting_name">
-		<select id="gradients" name="gradient" style="width:680px;">		
+	<td class="setting_value">
+		<select id="gradients" name="gradient">		
 			<option value="<?php echo $admin->strip_slashes($fetch_settings['gradient']); ?>" data-image="<?php echo WB_URL; ?>/modules/jqCollapse/images/msdropdown/icons/<?php echo $admin->strip_slashes($fetch_settings['gradient']); ?>.png" data-description="<?php echo $FQTEXT['ACTIVE_GRADIENT']; ?>"><?php echo $FQTEXT['CHOOSE_GRADIENT']; ?></option>
 			<option value="no-gradient" data-image="<?php echo WB_URL; ?>/modules/jqCollapse/images/msdropdown/icons/no-gradient.png" data-description=""><?php echo $FQTEXT['NO_GRADIENT']; ?></option>
 			<option value="gradient" data-image="<?php echo WB_URL; ?>/modules/jqCollapse/images/msdropdown/icons/gradient.png" data-description=""><?php echo $FQTEXT['GRADIENT']; ?></option>
@@ -98,11 +98,11 @@ if(function_exists('edit_module_css')) {
 	</td>
 </tr>
 <tr>
-	<td class="setting_name" style="width: 200px">
+	<td class="setting_name">
 		<?php echo $FQTEXT['ICON']; ?>:
 	</td>
-	<td class="setting_name">
-		<select id="icons" name="icon" style="width:680px;">
+	<td class="setting_value">
+		<select id="icons" name="icon">
 			<option value="<?php echo $admin->strip_slashes($fetch_settings['icon']); ?>" data-image="<?php echo WB_URL; ?>/modules/jqCollapse/images/msdropdown/icons/<?php echo $admin->strip_slashes($fetch_settings['icon']); ?>.png" data-description="<?php echo $FQTEXT['ACTIVE_ICON']; ?>"><?php echo $FQTEXT['CHOOSE_ICON']; ?></option>
 			<option value="default" data-image="<?php echo WB_URL; ?>/modules/jqCollapse/images/msdropdown/icons/default.png" data-description=""><?php echo $FQTEXT['DEFAULT_ICON']; ?></option>
 			<option value="chevrons" data-image="<?php echo WB_URL; ?>/modules/jqCollapse/images/msdropdown/icons/chevrons.png" data-description=""><?php echo $FQTEXT['CHEVRONS']; ?></option>
@@ -114,10 +114,10 @@ if(function_exists('edit_module_css')) {
 </tr>
 <tr>
 	<td class="setting_name">
-		Font and iconcolor: <!- Needs to be translated->
+		<?php echo $FQTEXT['FONTANDICONCOLOR']; ?>: <!- Needs to be translated->
 	</td>
-	<td class="setting_name">
-		<select id="fontcolors" name="fontcolor" style="width:680px;">		
+	<td class="setting_value">
+		<select id="fontcolors" name="fontcolor">		
 		<option value="<?php echo $admin->strip_slashes($fetch_settings['fontcolor']); ?>" data-image="<?php echo WB_URL; ?>/modules/jqCollapse/images/msdropdown/icons/<?php echo $admin->strip_slashes($fetch_settings['fontcolor']); ?>.png" data-description="<?php echo $FQTEXT['ACTIVE_TEXTCOLOR']; ?>"><?php echo $FQTEXT['CHOOSE_TEXTCOLOR']; ?></option>
 		<option value="white" data-image="<?php echo WB_URL; ?>/modules/jqCollapse/images/msdropdown/icons/white.png" data-description=""><?php echo $FQTEXT['WHITE']; ?></option>
 		<option value="black" data-image="<?php echo WB_URL; ?>/modules/jqCollapse/images/msdropdown/icons/black.png" data-description=""><?php echo $FQTEXT['BLACK']; ?></option>
@@ -130,7 +130,7 @@ if(function_exists('edit_module_css')) {
 	<td class="setting_name">
 		<?php echo $TEXT['HEADER']; ?>:
 	</td>
-	<td class="setting_name">
+	<td class="setting_value">
 		<textarea name="header" style="width: 98%;"><?php echo $admin->strip_slashes($fetch_settings['header']); ?></textarea>
 	</td>
 </tr>
@@ -138,7 +138,7 @@ if(function_exists('edit_module_css')) {
 	<td class="setting_name" style="width: 200px">
 		<?php echo $TEXT['FOOTER']; ?>:
 	</td>
-	<td class="setting_name">
+	<td class="setting_value">
 		<textarea name="footer" style="width: 98%;"><?php echo $admin->strip_slashes($fetch_settings['footer']); ?></textarea>
 	</td>
 </tr>
@@ -146,7 +146,7 @@ if(function_exists('edit_module_css')) {
 	<td class="setting_name" style="width: 200px">
 		<?php echo $FQTEXT['TEMPLATE_DETAIL']; ?>:
 	</td>
-	<td class="setting_name">	
+	<td class="setting_value">	
 		<textarea name="template_details" style="width: 98%; height:200px;"><?php echo $admin->strip_slashes($fetch_settings['template_details']); ?></textarea>
 	</td>
 </tr>

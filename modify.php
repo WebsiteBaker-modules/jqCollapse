@@ -43,13 +43,13 @@ if( $query_settings->numRows() == 0 ) {
 <table cellpadding="0" cellspacing="0" border="0" width="100%">
 <tr>
 	<td align="left" width="33%">
-		<a class="btn" href="<?php echo WB_URL; ?>/modules/jqCollapse/add_question.php?page_id=<?php echo $page_id; ?>&section_id=<?php echo $section_id; ?>"><i class="icon-plus"></i> <?php echo $FQTEXT['ADD_QUESTION_ANSWER']; ?></a>
+		<a class="btn" href="<?php echo WB_URL; ?>/modules/jqCollapse/add_question.php?page_id=<?php echo $page_id; ?>&section_id=<?php echo $section_id; ?>"><img class="fa-svg" src="<?php echo WB_URL; ?>/modules/jqCollapse/images/icons/plus.png"> <?php echo $FQTEXT['ADD_QUESTION_ANSWER']; ?></a>
 	</td>
 	<td align="center" width="33%">
-		<a class="btn" href="<?php echo WB_URL; ?>/modules/jqCollapse/add_category.php?page_id=<?php echo $page_id; ?>&section_id=<?php echo $section_id; ?>"><i class="icon-list"></i> <?php echo $FQTEXT['NEW_CATEGORY']; ?></a>
+		<a class="btn" href="<?php echo WB_URL; ?>/modules/jqCollapse/add_category.php?page_id=<?php echo $page_id; ?>&section_id=<?php echo $section_id; ?>"><img class="fa-svg" src="<?php echo WB_URL; ?>/modules/jqCollapse/images/icons/list.png"> <?php echo $FQTEXT['NEW_CATEGORY']; ?></a>
 	</td>
 	<td align="center" width="33%">
-		<a class="btn" href="<?php echo WB_URL; ?>/modules/jqCollapse/modify_settings.php?page_id=<?php echo $page_id; ?>&section_id=<?php echo $section_id; ?>"><i class="icon-cogs"></i> <?php echo $FQTEXT['SETTINGS']; ?></a>
+		<a class="btn" href="<?php echo WB_URL; ?>/modules/jqCollapse/modify_settings.php?page_id=<?php echo $page_id; ?>&section_id=<?php echo $section_id; ?>"><img class="fa-svg" src="<?php echo WB_URL; ?>/modules/jqCollapse/images/icons/cogs.png"> <?php echo $FQTEXT['SETTINGS']; ?></a>
 	</td>
 </tr>
 </table>

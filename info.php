@@ -54,7 +54,7 @@ v1,0 (Nibz, 21 April 2013)
 $module_directory = 'jqCollapse';
 $module_name = 'jqCollapse';
 $module_function = 'page';
-$module_version = '1.0';
+$module_version = '1.1';
 $module_platform = '2.8.x';
 $module_author = 'Nibz';
 $module_license = 'GNU General Public License';

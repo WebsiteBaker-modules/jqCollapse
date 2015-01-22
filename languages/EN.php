@@ -52,6 +52,7 @@ $FQTEXT['NO_GRADIENT'] = 'No gradient';
 $FQTEXT['ICON'] = 'Icon';
 $FQTEXT['ACTIVE_ICON'] = '<- Active icon';
 $FQTEXT['CHOOSE_ICON'] = 'Choose your icon setting';
+$FQTEXT['FONTANDICONCOLOR'] = 'Font and iconcolor';
 $FQTEXT['DEFAULT_ICON'] = 'Default +/-';
 $FQTEXT['CHEVRONS'] = 'Chevrons';
 $FQTEXT['SIGNS'] = 'Signs';

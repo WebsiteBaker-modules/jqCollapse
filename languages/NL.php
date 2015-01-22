@@ -52,6 +52,7 @@ $FQTEXT['NO_GRADIENT'] = 'Geen kleurverloop';
 $FQTEXT['ICON'] = 'Icoon';
 $FQTEXT['ACTIVE_ICON'] = '<- Active icoon instelling';
 $FQTEXT['CHOOSE_ICON'] = 'Kies een icoon instelling';
+$FQTEXT['FONTANDICONCOLOR'] = 'Letter en icoonkleur';
 $FQTEXT['DEFAULT_ICON'] = 'Standaard +/-';
 $FQTEXT['CHEVRONS'] = 'Chevrons / Driehoek';
 $FQTEXT['SIGNS'] = 'Plus/Minus (rond)';

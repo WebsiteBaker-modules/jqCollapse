@@ -52,6 +52,7 @@ $FQTEXT['NO_GRADIENT'] = 'Kein Farbverlauf';
 $FQTEXT['ICON'] = 'Icon';
 $FQTEXT['ACTIVE_ICON'] = '<- Aktives Icon';
 $FQTEXT['CHOOSE_ICON'] = 'W&auml;hle deine Icon-Einstellungen';
+$FQTEXT['FONTANDICONCOLOR'] = 'Font und icon farbe';
 $FQTEXT['DEFAULT_ICON'] = 'Standard +/-';
 $FQTEXT['CHEVRONS'] = 'Chevrons / Winkel';
 $FQTEXT['SIGNS'] = 'Plus/Minus (rund)';
